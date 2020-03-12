@@ -22,9 +22,24 @@ print()
 print('"Suma" de Caracteres')
 print("Buen " + "día ")
 
+# Multiplicando una cadena
 print(("Buen " + "día -- ") * 3 )
 
+#Obteniendo unicamente el caracter de la posición 1
 print( "Buen día"[1] )
+
+"""
+Función join:
+    Es una función que nos permite poder colocar todos los elementos de una tupla o lista
+    dentro de un String
+"""
+
+lista = ["Buen","día"]
+
+saludo = "".join(lista)
+print()
+print("La lista utilizando join concatenada da: {0}".format(saludo))
+
 
 # Resta
 
