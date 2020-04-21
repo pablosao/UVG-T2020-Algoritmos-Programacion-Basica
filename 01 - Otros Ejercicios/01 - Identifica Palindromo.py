@@ -3,12 +3,11 @@
 @email: sao11530@uvg.edu.gt
 
 Ejemplo palabras palindromas:
-
-ama
-oso
-oro
-reconocer
-sometemos
+    ama
+    oso
+    oro
+    reconocer
+    sometemos
 """
 
 palabra_identificar = input("Ingrese Palabra a Identificar: ")
